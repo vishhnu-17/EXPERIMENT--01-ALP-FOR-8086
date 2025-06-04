@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : Kurapati Vishnu Vardhan Reddy
+Roll no : 212223040103
+Date of experiment : 12-03-2025
 
 
 
@@ -77,27 +77,120 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition  of 8 bit ALP
 
+```assembly
+org 100h
 
+mov ax,100h
+mov bx,200h
+add ax,bx
+
+ret
+```
 
 ## Output  
+![image](https://github.com/user-attachments/assets/999c02dc-1178-4285-94cf-f012088b09f9)
  
-## Subtraction   of 8 bit numbers  ALP 
- 
+## Subtraction of 8 bit numbers  ALP 
+```assembly
+org 100h
+
+mov ax,100h
+mov bx,200h
+sub ax,bx
+
+ret
+```
+
 ## Output  
+![image](https://github.com/user-attachments/assets/8e06697c-6f26-4c7e-87b0-cf17565651a1)
+
 ## Multiplication alp 
- ## Output  
+```assembly
+org 100h
 
+mov al,88h
+mov bl,77h
+mul bl
+
+ret
+```
+## Output  
+![image](https://github.com/user-attachments/assets/d931a4fa-5742-41a7-9e9e-2be066978458)
 
 ## Division alp 
+```assembly
+org 100h
+
+mov al,88h
+mov bl,77h
+div bl
+
+ret
+```
 
 ## Output  
+![image](https://github.com/user-attachments/assets/3ff7759a-d902-4d91-b295-d2be4ba28f3e)
+
+## AND alp
+```assembly
+org 100h
+
+mov al,25h
+mov bl,50h
+and al,bl
+
+ret
+```
+
+## Output  
+![image](https://github.com/user-attachments/assets/36a44efe-aac4-4cfe-944b-4149d304b312)
+
+
+## OR alp 
+```assembly
+org 100h
+
+mov al,90h
+mov bl,65h,
+or al,bl
+
+ret
+```
+## Output  
+![image](https://github.com/user-attachments/assets/b6465cd1-6a23-438b-beeb-fad16cd3ad24)
+
+## NOT alp 
+```assembly
+org 100h
+
+mov al,90h
+not al
+
+ret
+```
+## Output 
+![image](https://github.com/user-attachments/assets/2764f4f0-8e87-408d-8b2e-bc95e2ed4a9e)
+
+
+## XOR alp 
+```assembly
+org 100h
+
+mov al,90h
+mov bl,90h
+xor al,bl
+
+ret
+```
+## Output  
+![image](https://github.com/user-attachments/assets/93816a4c-ae5c-40bc-a75a-3ccb4319bf6f)
+
 
 
 ## Result :
- 
-
+Thus, we have have written and executed alp on fundamental arithmetic (add,sub,mul,div) and logical operations (and,or,not,xor) successfully
 
 
 
